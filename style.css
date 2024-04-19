@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.point {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 14px;
+    width: 14px;
+}
+.point-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    gap: 6px;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background-color: rgb(231, 106, 81);
+    height: 9vw;
+}
+main {
+    padding: 100px;
+}
+.box {
+    height: 100px;
+}
+.pink {
+    background-color: blue;
+}
+.black {
+    background-color:yellow;
+}
+.blue {
+    background-color: green;
+}
